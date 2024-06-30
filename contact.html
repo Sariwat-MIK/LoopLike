@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoopLike!</title>
+    <link rel="stylesheet" href="style_contact.css">
+</head>
+<body>
+    <nav>
+        <header class="header"></header>
+        
+        <a href="main.html">
+        <img class="iconlooplike" src="./public/rectangle-27@2x.png" alt="LoopLike Icon">
+        <div class="loopliketext">LoopLike!</div>
+        <div class="framelooplike1"></div>
+        <div class="framelooplike2"></div>
+        </a>
+
+        <img class="tiktok_logo" src="./public/tiktok_logo.png" alt="TikTok Logo">
+        <img class="fb_logo" src="./public/fb_logo.png" alt="Facebook Logo">
+        <img class="youtube_logo" src="./public/youtube_logo.png" alt="YouTube Logo">
+        <img class="line_logo" src="./public/image-25@2x.png" alt="line_logo">
+
+        <ul class="nav-list">
+            <li><a class="headhome" href="main.html">Home</a></li>
+            <li><a class="headservice" href="main.html#serviceSection">Service</a></li>
+            <li><a class="headportfolio" href="Poftfoilo.html">Portfolio</a></li>
+            <li><a class="headaboutus" href="main.html#myTeamSection">About Us</a></li>
+            <li><a class="headcontact" href="contact.html">Contact</a></li>
+
+            <li><a class="fb_logo" href="https://www.facebook.com/profile.php?id=61560653085685"></a></li>
+            <li><a class="line_logo" href="https://lin.ee/kVZOK1Z"></a></li>
+            <li><a class="youtube_logo" href="https://youtube.com/@looplikecompany?si=jRfxfHt8RhTKGpqj"></a></li>
+            <li><a class="tiktok_logo" href="https://www.tiktok.com/@looplikecompany?_t=8nPWXlDQVDE&_r=1"></a></li>
+        </ul>
+    </nav>
+    <img class="canvapic" src="./png/picturecontactcanva.png">
+    <img class="bg_contact" src="./png/bg_contact.png">
+    <div class="overallform">
+    <div class="formtocontact">
+            <h1 class="headformcontact">แบบฟอร์มติดต่อ</h1>
+            <ul class="textname"> ชื่อ - นามสกุล </ul>
+            <ul class="textemail"> อีเมล </ul>
+            <ul class="textphone"> เบอร์โทรศัพท์ </ul>
+            <ul class="texttopic"> หัวข้อ </ul>
+            <ul class="textdetail"> รายละเอียด </ul>
+        <form onsubmit="sendmail(); reset(); return false">
+            <input class="namecontact" type="text" id="name" placeholder="ชื่อ - นามสกุล">
+            <input class="emailcontact" type="text" id="email" placeholder="อีเมล">
+            <input class="phonecontact" type="text" id="phone" placeholder="เบอร์โทรศัพท์">
+            <input class="topiccontact" type="text" id="topic" placeholder="หัวข้อ">
+            <textarea class="detailcontact" type="text" id="detail" placeholder="รายละเอียด"></textarea>
+            <input class="submitcontact" type="submit" value="ส่งรายละเอียด">
+        </form>
+    </div>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendmail(){
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+            var topic = document.getElementById("topic").value;
+            var detail = document.getElementById("detail").value;
+
+            var messageEmail = "ชื่อ - นามสกุล: " + name + "<br>อีเมล: " + email + "<br>เบอร์โทร: " + phone + "<br>รายละเอียด: " + detail;
+
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "sariwat.m@gmail.com",
+                Password : "A11A51DC151D8D94BD3E6D312BC305249411",
+                To : 'sariwat.m@gmail.com',
+                From : 'sariwat.m@gmail.com',  // Use a validated email address
+                Subject : topic,
+                Body : messageEmail,
+                ReplyTo : email  // This allows you to reply to the sender's email
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
+
+    <div>
+        <img class="footage" src="./png/footage.png">
+    </div>
+</body>
+</html>
