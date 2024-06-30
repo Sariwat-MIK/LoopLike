@@ -1,0 +1,469 @@
+.header {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 168px;
+    left: 0%;
+    top: 0%;
+    background: linear-gradient(90deg, #0D0538 18.5%, #1A2373 52%, #081C5C 82%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+
+    .linktohome{
+        display : flex;
+    }
+    
+    .iconlooplike {
+        display: flex;
+        width: 108px;
+        height: 110px;
+        position: absolute; 
+        margin: 0%;
+        padding: 0%;
+        left: 23px;
+        top: 23px;
+        box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.25);
+        border-radius: 99px;
+    }
+    
+    .loopliketext{
+        display: flex;
+    position: absolute;
+    width: 213px;
+    height: 48px;
+    left: 170px;
+    top: 54px;
+    padding:0;
+    margin: 0;
+    font-family: 'Prompt';
+    font-style: italic;
+    font-weight: 650;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 3px 3px 4px rgba(98, 95, 218, 0.3);
+    
+    }
+    
+    .framelooplike1{
+    display: flex;
+    position: absolute;
+    width: 90px;
+    height: 3.2px;
+    left: 278px;
+    top: 50px;
+    padding:0;
+    margin: 0;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 4px #231E64;
+    border-radius: 1px;
+    
+    }
+    
+    .framelooplike2{
+        display: flex;
+        position: absolute;
+        width: 78px;
+        height: 3px;
+        left: 150px;
+        top: 109px;
+        padding:0;
+    margin: 0;
+        background: #FFFFFF;
+        box-shadow: 3px 3px 4px #231E64;
+        border-radius: 1px;
+        
+    }
+    
+    .tiktok_logo{
+        /* Ellipse 4 */
+    
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 1125px;
+    top: 40px;
+    }
+    
+    .fb_logo{
+    /* Ellipse 5 */
+    
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 1200px;
+    top: 40px;
+    
+    }
+    .youtube_logo{
+    
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 1273px;
+    top: 40px;
+    
+    }
+    .line_logo{
+    
+    /* image 12 */
+    
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 1349px;
+    top: 40px;
+    
+    }
+    
+    
+    .ul{
+        flex: auto;
+        justify-content: center;
+        align-items: center;
+        padding:0%;
+        margin:0%;
+    }
+
+    .headhome{
+        display: flex;
+        position: absolute;
+        left: 54%;
+        top: 15%;
+        font-size: 24px;
+        color: white;
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: bold;
+        text-shadow: 3px 3px 4px rgba(98, 95, 218, 0.3);
+        text-decoration: none
+    }
+    
+    .headservice{
+        display: flex;
+        position: absolute;
+        left: 61%;
+        top: 15%;
+        font-size: 24px;
+        color: white;
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: bold;
+        text-shadow: 3px 3px 4px rgba(98, 95, 218, 0.3);
+        text-decoration: none
+    }   
+    
+    .headportfolio{
+        display: flex;
+        position: absolute;
+        left: 68.5%;
+        top: 15%;
+        font-size: 24px;
+        color: white;
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: bold;
+        text-shadow: 3px 3px 4px rgba(98, 95, 218, 0.3);
+        text-decoration: none
+    }
+    
+    .headaboutus{
+        display: flex;
+        position: absolute;
+        left: 77%;
+        top: 15%;
+        font-size: 24px;
+        color: white;
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: bold;
+        text-shadow: 3px 3px 4px rgba(98, 95, 218, 0.3);
+        text-decoration: none
+    }
+    
+    .headcontact{
+        display: flex;
+        position: absolute;
+        left: 86%;
+        top: 15%;
+        font-size: 24px;
+        color: white;
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: bold;
+        text-shadow: 3px 3px 4px rgba(98, 95, 218, 0.3);
+        text-decoration: none
+    }
+
+.formcontact {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    left: 0%;
+    top: 175px
+}
+
+.footage {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    left: 0%;
+    top: 2070px
+}
+.canvapic{
+    display: flex;
+    position: absolute;
+    top: 165px;
+    width: 100%;
+    left: 0;
+}
+
+
+.overallform{
+    display: flex;
+    position: absolute;
+    top: 1100px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 800px;
+    height: 900px;
+    background-color: rgba(229, 229, 229, 0.852);
+    border-radius: 10px;
+    margin: 0;
+    padding: 5px;
+}
+.formtocontact{
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 800px;
+    background-color: rgba(229, 229, 229, 0.852);
+    border-radius: 10px;    
+}
+
+.headformcontact{
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%);
+    color:black;
+    size: 40px;
+    font-family: 'Prompt';
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------------------------------------------------------- */
+
+.namecontact{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    height: 8%;
+    color:rgb(88, 88, 88);
+    font-size: 25px;
+    font-family: 'Prompt';
+    background-color: rgb(194, 193, 193);
+    border: none;
+}
+.emailcontact{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 44%;
+    left: 10%;
+    transform: translate(0%,-50%);
+    width: 38%;
+    height: 8%;
+    color:rgb(88, 88, 88);
+    font-size: 25px;
+    font-family: 'Prompt';
+    background-color: rgb(194, 193, 193);
+    border: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.phonecontact{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 44%;
+    left: 52%;
+    transform: translate(-0%,-50%);
+    width: 38%;
+    height: 8%;
+    color:rgb(88, 88, 88);
+    font-size: 25px;
+    font-family: 'Prompt';
+    background-color: rgb(194, 193, 193);
+    border: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.topiccontact{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 61%;
+    left: 10%;
+    transform: translate(0%,-50%);
+    width: 80%;
+    height: 8%;
+    color:rgb(88, 88, 88);
+    font-size: 25px;
+    font-family: 'Prompt';
+    background-color: rgb(194, 193, 193);
+    border: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.detailcontact{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 25%;
+    color:rgb(88, 88, 88);
+    font-size: 25px;
+    font-family: 'Prompt';
+    background-color: rgb(194, 193, 193);
+    border: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.submitcontact{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    height: 8%;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Prompt';
+    background: linear-gradient(180deg, #fbff32 4%, #b79024 68.1%, #99601e);
+    border-color:black;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* -------------------------------------------------------------------------------*/
+
+
+.textname{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    left: 4%;
+    width: 20%;
+    height: 8%;
+    color:rgb(59, 59, 59);
+    font-size: 25px;
+    font-family: 'Prompt';
+    border: none;
+}
+
+.textemail{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 28%;
+    left: -2%;
+    width: 20%;
+    height: 8%;
+    color:rgb(59, 59, 59);
+    font-size: 25px;
+    font-family: 'Prompt';
+    border: none;
+}
+
+.textphone{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 28%;
+    left: 46%;
+    width: 20%;
+    height: 8%;
+    color:rgb(59, 59, 59);
+    font-size: 25px;
+    font-family: 'Prompt';
+    border: none;
+}
+
+.texttopic{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 45%;
+    left: -1.5%;
+    width: 20%;
+    height: 8%;
+    color:rgb(59, 59, 59);
+    font-size: 25px;
+    font-family: 'Prompt';
+    border: none;
+}
+
+.textdetail{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 61.5%;
+    left: 2.5%;
+    width: 20%;
+    height: 8%;
+    color:rgb(59, 59, 59);
+    font-size: 25px;
+    font-family: 'Prompt';
+    border: none;
+}
+.bg_contact{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    left: 0;
+    top: 200px;
+    
+}
